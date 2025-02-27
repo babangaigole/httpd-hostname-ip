@@ -2,7 +2,7 @@
 This is a simple web server that prints hostname and IP address.
 
 ## Build your own container
-$ docker built -t <image-name>:<tag> .
+$ docker built -t image-name:tag .
 
 ## List image
 $ docker image ls
