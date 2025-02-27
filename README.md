@@ -14,7 +14,7 @@ $ docker container run -dit -p 80:80 --name=cusweb-host gaigoleb2/cuswebsrvhostn
 $ docker container ls -a
 
 ## Test container
-$ curl <ip-address>:80
+$ curl host-ip-address:80
 
 ## Stop & remove container
 $ docker container stop cusweb-host
